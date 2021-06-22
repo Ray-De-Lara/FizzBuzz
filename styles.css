@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.title {
+    font-family: 'IronMan', arial;
+    font-size: 25px;
+    color: #20e4f3;
+    position: absolute;
+    left: 28em;
+    top: 2em;
+}
+
+.cuadro {
+    font-family: 'IronMan', arial;
+    background-color: black;
+    width: 286px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: #20e4f3 solid 3px;
+    left: 40em;
+    top: 8em;
+    position: absolute;
+}
+
+.boton {
+    font-family: 'IronMan', arial;
+    background-color: black;
+    border: #20e4f3 solid 2px;
+    color: white;
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    top: 20em;
+    left: 25em;
+}
+
+.cantidad {
+    font-family: 'IronMan', arial;
+    background-color: black;
+    border: #20e4f3 solid 2px;
+    color: white;
+    position: absolute;
+    top: 15em;
+    left: 20em;
+}
+
+.contador {
+    font-family: 'IronMan', arial;
+    background-color: black;
+    border: #20e4f3 solid 2px;
+    color: white;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 20em;
+    left: 70em;
+}
+
+.contador1 {
+    font-family: 'IronMan', arial;
+    background-color: black;
+    border: #20e4f3 solid 2px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 23em;
+    left: 70em;
+}
+
+.contador2 {
+    font-family: 'IronMan', arial;
+    background-color: black;
+    border: #20e4f3 solid 2px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 26em;
+    left: 70em;
+}
+
+.fizz {
+    font-family: 'IronMan', arial;
+    color: white;
+    position: absolute;
+    top: 20em;
+    left: 72em;
+}
+
+.buzz {
+    font-family: 'IronMan', arial;
+    color: white;
+    position: absolute;
+    top: 23em;
+    left: 72em;
+}
+
+.fizzbuzz {
+    font-family: 'IronMan', arial;
+    color: white;
+    position: absolute;
+    top: 26em;
+    left: 72em;
+}
+
+@media (max-width:768px) {
+    .title {
+        left: 4em;
+    }
+    .cantidad {
+        left: 6em;
+    }
+    .boton {
+        left: 12em;
+    }
+    .fizz {
+        top: 21em;
+        left: 3em;
+    }
+    .buzz {
+        top: 21em;
+        left: 10em;
+    }
+    .fizzbuzz {
+        top: 21em;
+        left: 16em;
+    }
+    .contador {
+        top: 23em;
+        left: 3.55em;
+    }
+    .contador1 {
+        top: 23em;
+        left: 11em;
+    }
+    .contador2 {
+        top: 23em;
+        left: 18.5em;
+    }
+    .cuadro {
+        left: 3em;
+        top: 27em;
+    }
+}
